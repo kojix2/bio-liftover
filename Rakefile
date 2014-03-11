@@ -13,12 +13,12 @@ require 'rake'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
+  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "bio-liftover"
   gem.homepage = "http://github.com/andreirozanski/bioruby-liftover"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Ruby solution for UCSC LiftOver tool- (UCSC http://genome.ucsc.edu/cgi-bin/hgLiftOver)}
+  gem.description = %Q{Simple, under development Ruby solution for UCSC LiftOver tool}
   gem.email = "andrei@ruivo.org"
   gem.authors = ["Andrei Rozanski"]
   # dependencies defined in Gemfile
@@ -30,12 +30,6 @@ Rake::TestTask.new(:test) do |test|
   test.libs << 'lib' << 'test'
   test.pattern = 'test/**/test_*.rb'
   test.verbose = true
-end
-
-desc "Code coverage detail"
-task :simplecov do
-  ENV['COVERAGE'] = "true"
-  Rake::Task['test'].execute
 end
 
 task :default => :test

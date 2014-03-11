@@ -14,9 +14,30 @@ gem install bio-liftover
 
 ## Usage
 
+Inside script:
+
 ```ruby
 require 'bio-liftover'
+
 ```
+
+As bin file:
+
+bio-liftover -h --help
+
+bio-liftover
+
+Usage:
+  bio-liftover.rb ([-v] -b <genome1> <genome2> <file>|[-v] -c <genome1> <genome2> <chromosome> <start> <end>)
+  bio-liftover.rb -h | --help
+  bio-liftover.rb -v | --verbose
+
+Options:
+  -h --help     Show this screen.
+  -v --verbose  Increase information during run.
+  -b --bed      Bed file as input.
+  -c --coord    Coordinate as input i.e. hg19,hg18,chr2,55000.
+
 
 The API doc is online. For more code examples see the test files in
 the source tree.
