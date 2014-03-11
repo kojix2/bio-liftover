@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-require_relative 'bio-liftover'
+require 'bio-liftover'
 
 gen1="hg19"
 gen2="Hg18"
