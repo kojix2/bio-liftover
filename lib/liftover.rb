@@ -9,6 +9,7 @@
 require 'zlib'
 require 'open-uri'
 require 'interval-tree'
+require_relative 'liftover/version'
 
 module LiftOver
   class Query
