@@ -7,7 +7,7 @@ gem 'interval-tree', '>= 0.1.3'
 # Include everything needed to run rake, tests, features, etc.
 group :development do
   gem 'bundler'
+  gem 'irb'
   gem 'rake'
-  gem 'bio', '>= 1.4.2'
   gem 'simplecov', '>= 0'
 end
