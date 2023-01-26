@@ -1,6 +1,6 @@
 # bio-liftover
 
-[![Build Status](https://secure.travis-ci.org/andreirozanski/bioruby-liftover.png)](http://travis-ci.org/andreirozanski/bioruby-liftover)
+Forked from https://github.com/andreirozanski/bioruby-liftover
 
 A Ruby solution for UCSC LiftOver tool.
 
