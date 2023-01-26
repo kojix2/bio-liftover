@@ -9,8 +9,6 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'http://github.com/kojix2/bioruby-liftover'
   spec.license       = 'MIT'
 
-  spec.required_ruby_version = Gem::Requirement.new('>= 2.4.0')
-
   spec.files         = Dir['*.{md,txt}', '{lib,exe}/**/*']
   spec.require_paths = ['lib']
 
